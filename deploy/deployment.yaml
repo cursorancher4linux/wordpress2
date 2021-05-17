@@ -13,7 +13,7 @@ spec:
   template:
     metadata:
       labels:
-      workload.user.cattle.io/workloadselector: deployment-devops-mysql
+        workload.user.cattle.io/workloadselector: deployment-devops-mysql
     spec:
       containers:
       - env:
