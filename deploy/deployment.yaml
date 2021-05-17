@@ -136,7 +136,7 @@ spec:
     http:
       paths:
       - backend:
-          serviceName: wordpress
+          serviceName: wordpress-nodeport
           servicePort: 80
         path: /
 status:
