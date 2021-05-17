@@ -5,6 +5,7 @@ metadata:
   labels:
     cattle.io/creator: norman
     workload.user.cattle.io/workloadselector: deployment-devops-mysql
+  name: mysql
 spec:
   replicas: 1
   selector:
@@ -43,6 +44,7 @@ metadata:
   namespace: devops
   labels:
     cattle.io/creator: norman
+  name: mysql
 spec:
   ports:
   - name: mysql
